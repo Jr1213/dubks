@@ -1,4 +1,8 @@
 {
-    "Translation demo":"نسخة ترجمة",
-    "This is a simple demonstration app for ngx-translate":" هذا عرض بسيط لتطبيقات {{value}}"
+    "Delivary location :": "منطقة التوصيل :",
+    "cairo": "القاهره",
+    "what are you looking for?":"ما الذي تبحث عنه ؟",
+    "cart :" : "عربتك:",
+    "LE":"جنية",
+    "profile":"حسابي"
 }

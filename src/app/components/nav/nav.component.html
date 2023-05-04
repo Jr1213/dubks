@@ -1,0 +1,59 @@
+<div class="top-nav">
+    <div class="container d-flex">
+        <div class="lift">
+
+            <div class="lang">
+                <span *ngIf="currentLang == 'en'" (click)="setLang('ar')">العربية</span>
+                <span *ngIf="currentLang == 'ar'" (click)="setLang('en')">English</span>
+            </div>
+            <div class="location">{{"Delivary location :" | translate}} <span>{{"cairo" | translate}}</span></div>
+        </div>
+        <div class="right">
+
+            <div class="email">
+                <a href="mailto:info@dubks.com">
+                    <i class="bi bi-envelope-fill"></i>
+                    info@dubks.com
+                </a>
+            </div>
+            <div class="phone">
+                <i class="bi bi-telephone-plus-fill"></i>
+                +201000500563
+            </div>
+        </div>
+    </div>
+</div>
+<nav>
+    <div class="container d-flex">
+        <div class="logo">
+            <div class="p">logo</div>
+        </div>
+        <div class="search">
+            <input type="text" [dir]="'rtl'" placeholder="{{'what are you looking for?' | translate}}">
+        </div>
+        <div class="cart">
+            <i class="bi bi-bag-check"></i>
+            <div class="p-side">
+                <div class="title">{{'cart :' | translate}}</div>
+                <div class="currecny">5555 {{'LE' | translate}}</div>
+            </div>
+        </div>
+        <div class="profile">
+            <i class="bi bi-person">
+
+            </i>
+            <div class="p-side">
+                <div class="title">
+                    {{truncateString('mohammed hammad',10)}}
+                </div>
+                <div class="currency">{{'prfile' | translate}}</div>
+            </div>
+            <i class="bi bi-chevron-down"></i>
+        </div>
+    </div>
+</nav>
+<div class="cateogries">
+    <div class="container d-flex">
+        <div class="item" *ngFor="let catergory of categories">{{catergory}}</div>
+    </div>
+</div>

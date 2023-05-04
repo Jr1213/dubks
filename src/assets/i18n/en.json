@@ -1,4 +1,8 @@
 {
-    "Translation demo":"Translation demo",
-    "This is a simple demonstration app for ngx-translate":"This is a simple demonstration app for {{value}}"
+    "Delivary location :": "Delivary location :",
+    "cairo": "Cairo",
+    "what are you looking for?":"what are you looking for?",
+    "cart :":"Cart :",
+    "LE":"LE",
+    "profile":"Profile"
 }

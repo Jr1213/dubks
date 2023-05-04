@@ -18,6 +18,7 @@ export class AppComponent {
   constructor(private _translateService:TranslateService,@Inject(DOCUMENT) private document: Document) {
     _translateService.setDefaultLang('en')
     _translateService.use('en')
+    
   }
 
   setLang(e:any):void {
