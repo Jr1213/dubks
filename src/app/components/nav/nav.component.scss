@@ -1,0 +1,140 @@
+@import "src/assets/scss/colors";
+/*** styling top nav ***/
+
+.top-nav {
+  background-color: $oxley;
+  .container {
+    justify-content: space-between;
+    align-items: center;
+    .lift,
+    .right {
+      display: flex;
+      gap: 0 2rem;
+      color: $hampton;
+    }
+  }
+}
+.lang,
+.location span {
+  padding: 5px 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.location {
+  padding: 5px 0;
+}
+
+.email a {
+  text-decoration: none;
+  color: $hampton;
+  font-size: 1.2rem;
+  padding: 5px;
+  display: block;
+}
+
+.phone {
+  padding: 5px;
+  font-size: 1.2rem;
+}
+/*** finish styling top nav ***/
+
+/*** styling nav ***/
+nav {
+  background-color: $white;
+  position: sticky;
+  top: 0;
+  .container {
+    padding: 5px 0;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 1rem;
+    /** search **/
+    .search {
+      flex-grow: 1;
+      padding: 5px;
+      border: solid 1px $powder-ash;
+      border-radius: 5px;
+      input {
+        border: none;
+        outline: none;
+        width: 100%;
+        padding: 10px 0;
+        font-size: 1.1rem;
+        font-weight: bold;
+      }
+    }
+    /** finsih search **/
+
+    /** cart & profile**/
+    .cart,
+    .profile {
+        cursor: pointer;
+        padding:0 10px;
+      border: solid 1px $powder-ash;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      i {
+        font-size: 1.6rem;
+        margin: 5px;
+        background-color: $aqua-squeeze;
+        border-radius: 50px;
+        line-height: 1px;
+        padding: 10px;
+      }
+      .p-side {
+
+        .title {
+          font-weight: 500;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+      }
+      .bi.bi-chevron-down {
+       background-color: transparent;
+       font-size: 1rem; 
+      }
+    }
+    /** finish cart & profile **/
+
+    /** logo **/
+    .logo {
+      min-width: 20%;
+      // text-align: center;
+      .p {
+        width: fit-content;
+        margin: 0 auto;
+        background-color: $plantation;
+        font-size: 1.2rem;
+        padding: 10px 20px;
+        font-weight: bolder;
+        color: $hampton;
+      }
+    }
+    /** finish logo **/
+  }
+}
+/*** finish styling nav ***/
+
+/*** styling cateogries ***/
+.cateogries {
+    background-color: $plantation;
+    color:$hampton;
+    .container {
+        gap: 0 1rem;
+        .item {
+            padding: 5px 10px;
+            font-size: 1.1rem;
+            font-weight: 500;
+            transition: all ease-in-out 250ms;
+            cursor: pointer;
+            &:hover {
+                background-color: $hampton;
+                color: $plantation;
+            }
+        }
+    }
+}
+/*** finish styling cateogries ***/
