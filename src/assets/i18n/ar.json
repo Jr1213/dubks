@@ -1,8 +1,24 @@
 {
     "Delivary location :": "منطقة التوصيل :",
     "cairo": "القاهره",
-    "what are you looking for?":"ما الذي تبحث عنه ؟",
-    "cart :" : "عربتك:",
-    "LE":"جنية",
-    "profile":"حسابي"
+    "what are you looking for?": "ما الذي تبحث عنه ؟",
+    "cart :": "عربتك:",
+    "LE": "جنية",
+    "profile": "حسابي",
+    "description-text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere earum sapiente cumque fuga nesciunt optio autem exercitationem corporis quidem. Quasi, facilis. Nobis nemo unde accusamus.",
+    "fast links": "روابط سريعة",
+    "offers": "العروض",
+    "brands": "الماركات",
+    "phones": "موبايل",
+    "electronics": "الكترونيات",
+    "clothes": "ملابس",
+    "cart": "العربه",
+    "information": "معلومات",
+    "shiping policy": "سياسة الشحن",
+    "prushing roles policy": "قواعد سياسات الشراء",
+    "payment methods": "وسائل الدفع",
+    "pay on delivery": "الدفع عند الاستلام",
+    "paybal": "بيبال",
+    "credit cart": "بطاقات ائتمان",
+    "contact us": "تواصل معنا"
 }
