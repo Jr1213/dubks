@@ -20,5 +20,16 @@
     "pay on delivery": "الدفع عند الاستلام",
     "paybal": "بيبال",
     "credit cart": "بطاقات ائتمان",
-    "contact us": "تواصل معنا"
+    "contact us": "تواصل معنا",
+    "create account": "انشئ حسابك",
+    "already have account?": "لديك حساب بالفعل؟",
+    "sign in": "تسجيل الدخول",
+    "sign in with google": "تسجيل دخول عن طريق جوجل",
+    "sign in with facebook": "تسجيل دخول عن طريق فيسبوك",
+    "email": "البريد الالكتروني",
+    "full name": "الاسم الكامل",
+    "phone number": "رقم الهاتف",
+    "password": "كلمة المرور",
+    "sign up": "انشئ حساب",
+    "or" : "أو"
 }

@@ -20,5 +20,16 @@
     "pay on delivery": "pay on delivery",
     "paybal": "paybal",
     "credit cart": "credit cart",
-    "contact us": "contact us"
+    "contact us": "contact us",
+    "create account": "create account",
+    "already have account?": "already have account?",
+    "sign in": "sign in",
+    "sign in with google": "sign in with google",
+    "sign in with facebook": "sign in with facebook",
+    "email": "email",
+    "full name": "full name",
+    "phone number": "phone number",
+    "password": "password",
+    "sign up": "sign up",
+    "or": "or"
 }

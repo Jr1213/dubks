@@ -1,5 +1,6 @@
 import { DOCUMENT } from '@angular/common';
 import { Component, Inject } from '@angular/core';
+import { Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -15,7 +16,11 @@ export class AppComponent {
   ];
 
 
-  constructor(private _translateService:TranslateService,@Inject(DOCUMENT) private document: Document) {
+  constructor(
+    private _translateService:TranslateService,
+    protected _url:Router,
+    @Inject(DOCUMENT) private document: Document
+    ) {
     _translateService.setDefaultLang('en')
     _translateService.use('en')
     
